@@ -17,3 +17,10 @@ downButton.addEventListener('click', () => {
     html.classList.remove('light-theme');
     html.classList.add('dark-theme');
 });
+
+// Login form logic
+const loginForm = document.getElementById('login-form');
+loginForm.addEventListener('submit', (event) => {
+    event.preventDefault(); // Prevent the form from submitting
+    alert('Login button clicked! (No backend is connected)');
+});

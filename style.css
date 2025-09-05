@@ -38,3 +38,49 @@ button {
     margin-right: 10px;
     cursor: pointer;
 }
+
+#login-container {
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid #ccc;
+}
+
+#login-form .form-group {
+    margin-bottom: 15px;
+}
+
+#login-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#login-form input[type="text"],
+#login-form input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+#login-button {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+}
+
+/* Theme-specific adjustments */
+.dark-theme #login-container {
+    border-top-color: #666;
+}
+
+.dark-theme #login-form input[type="text"],
+.dark-theme #login-form input[type="password"] {
+    background-color: #555;
+    color: #fff;
+    border-color: #666;
+}
